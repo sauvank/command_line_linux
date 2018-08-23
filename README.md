@@ -2,12 +2,12 @@
 Liste commande line utils for linux
 
 
-<p> liste all file in directory and sort by size</p>
+## 1 :liste all file in directory and sort by size
 
 >  du -ah Path/folder | grep -i '.avi\\|.mkv\\|.mp4' |sort -hr > movie_sort_by_size.log
 
 
-## change_background_auto
+## 2: change_background_auto
 
 ### create your file
 
@@ -41,7 +41,7 @@ $ crontab -e
 
 
 
-## open_ubuntu_app_from_url
+## 3 : open_ubuntu_app_from_url
 
 source : https://askubuntu.com/questions/330937/is-it-possible-to-open-an-ubuntu-app-from-html
 
