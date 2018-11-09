@@ -7,6 +7,10 @@ Liste commande line utils for linux
 >  du -ah Path/folder | grep -i '.avi\\|.mkv\\|.mp4' |sort -hr > movie_sort_by_size.log
 
 
+## 1.1 Get all file name in directory with regex
+
+> find ./  -printf "%f\n"|grep -i '.avi\|.mkv\|.mp4' > all_file.log
+
 ## 2: change_background_auto
 
 ### create your file
