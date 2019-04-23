@@ -11,6 +11,16 @@ Liste commande line utils for linux
 
 > find ./  -printf "%f\n"|grep -i '.avi\|.mkv\|.mp4' > all_file.log
 
+
+## Encrypt / Decrypt file :
+
+#### Encrypt
+> openssl enc -e -aes-256-cbc -in fileToEncrypt.mkv -out abc.enc -k password -S deadbeef
+
+#### Decrypt
+> openssl enc -aes-256-cbc -d -in abc.enc -k password -out fileDencrypt.txt
+
+
 ## 2: change_background_auto
 
 ### create your file
